@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="[https://github.com/CalledCracki/GGFeatures_REL]">
-    <img src="images/logo.png" alt="Logo" width="110" height="110">
+    <img src="images/logo.png" alt="Logo" width="120" height="120">
   </a>
 
   <h1 align="center">GGFeatures Reloaded</h1>
