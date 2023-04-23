@@ -1,0 +1,9 @@
+name: GGFeaturesREL
+version: '${project.version}'
+main: at.cracki.ggfeaturesrel.GGFeatures
+api-version: 1.16
+authors: [ CalledCracki ]
+description: Continuation of the GGFeatures System by Niklas409
+
+commands:
+  perks:

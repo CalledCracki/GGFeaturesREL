@@ -1,0 +1,65 @@
+name: GrieferGames
+authors:
+  - Niklas409
+  - CalledCracki
+version: 1.0
+description: Plugin mit allen Features des GrieferGames Netzwerkes.
+main: at.cracki.ggfeatures.main.GGFeatures
+commands:
+  ggrl:
+    description: Lädt das gesamte Plugin neu.
+  slowchat:
+    description: (De-)aktiviere die Verlangsamung des Chats.
+  clearchat:
+    description: Leert den Chat für alle Spieler.
+  startkick:
+    description: Starte eine Abstimmung um einen Spieler zu bestrafen.
+  unstartkick:
+    description: Hebe die Community Sperre eines Spielers auf.
+  mutep:
+    description: Stumme einen Spieler, wenn er sich falsch verhält.
+  unmutep:
+    description: Hebe die Stummschaltung eines Spielers auf.
+  ban:
+    description: Schließe einen Spieler vom Netzwerk aus.
+  unban:
+    description: Hebe die Sperre eines Spielers auf.
+  ja:
+  nein:
+  kopf:
+    description: Hol dir den Kopf eines beliebigen Spielers.
+  prefix:
+    description: Wähle einen farbigen Prefix aus.
+  viewarmor:
+    description: Zeigt dir an, welche Rüstung ein Spieler trägt.
+  b:
+    description: Schreibe fettgedruckt im Chat.
+  luckyblock:
+    description: Erschafft einen Luckyblock.
+  vanish:
+    description: (De-)aktiviere den Unsichtbarkeitsmodus.
+  v:
+  meldung:
+    description: Melde den Admins einen verdächtigen Spieler.
+  antibot:
+    description: Sperre Spieler, die Bots sein könnten für 15 Minuten.
+  perk:
+    description: Öffne das PerkGUI und erwerbe Perks.
+  status:
+    description: (De-)aktiviere und ändere deinen Status.
+  Feuerwerk:
+    description: Erschaffe ein Feuerwerk.
+  gun:
+    description: Erhalte eine spezielle Paintball Gun.
+  merge:
+    description: Füge mehrere Grundstücke gegen Money zusammen.
+  booster:
+    description: (De-)aktiviere und vergebe Booster für alle Spieler.
+  sign:
+    description: Signiere ein beliebiges Item in deiner Hand.
+  schild:
+    description: Bearbeite ein beliebiges Schild.
+  case:
+    description: Vergib Cases an andere Spieler oder dich selbst.
+
+

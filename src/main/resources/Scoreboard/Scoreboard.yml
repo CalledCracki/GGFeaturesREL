@@ -1,0 +1,45 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     GGFeaturesREL                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The maximum number of characters for each line is 16.
+# %ONPLAYER% - Number of currently online players.
+# %MAXPLAYER% - Number of max allowed players.
+
+# %BALANCE% - Current Player's Balance.
+# The money system used, is defined in the config.yml
+
+# %WORLD% - Name of the world a player is on.
+# %NULL% - Line will not be displayed.
+
+# WARNING: Do NOT change the %EXAMPLE% Parameters.
+
+# File version value [DO NOT EDIT]
+file-version: 1
+
+Scoreboard:
+  Settings:
+
+    # If you don't want the scoreboard to be shown, type 'false'.
+    Enabled: true
+
+    # Interval the Scoreboard is being updated in.
+    # 20 Ticks equals 1 Second
+    UpdateTicks: 20
+  Messages:
+    Title: '&6&lWerbung'
+    Line13: '&1 '
+    Line12: '&7▷ &3&lServer: '
+    Line11: '&fCB-1'
+    Line10: '&2 '
+    Line9: '&7▷ &3&lOnline'
+    Line8: '&f%ONPLAYER%/%MAXPLAYER%'
+    Line7: '&3 '
+    Line6: '&7▷ &3&lKontostand'
+    Line5: '&f%BALANCE%$'
+    Line4: '&4 '
+    Line3: '&7▷ &3Server-Adresse'
+    Line2: '&fGrieferGames.net'
+    Line1: '&5 '

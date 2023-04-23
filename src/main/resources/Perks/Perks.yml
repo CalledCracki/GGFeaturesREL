@@ -1,0 +1,65 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                     GGFeaturesREL                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# File version value [DO NOT EDIT]
+file-version: 1
+
+Perks:
+  FallDamage:
+    Name: 'FallDamage'
+    Display: '&6Kein Fallschaden'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7keinen Fallschaden mehr.'
+      - '&7Kosten &e%PRICEFALLDMG%$'
+    Price: 500000
+
+  ClearChat:
+    Name: 'ClearChat'
+    Display: '&6ClearChat-Befehl'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
+      - '&e/clearchat &7benutzen, um den Chat zu leeren.'
+      - '&7Kosten: &e%PRICECLEAR%$'
+    Price: 400000
+
+  StartKick:
+    Name: 'StartKick'
+    Display: '&6StartKick-Befehl'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
+      - '&e/startkick &7benutzen, um eine Abstimmung'
+      - '&7für einen Rauswurf zu starten.'
+      - '&7Kosten: &e%PRICEKICK%$'
+    Price: 500000
+
+  SlowChat:
+    Name: 'SlowChat'
+    Display: '&6SlowChat-Befehl'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
+      - '&e/slowchat &7benutzen, um den Chat zu verlangsamen.'
+      - '&7Kosten: &e%PRICESLOW%$'
+    Price: 500000
+
+  Mute:
+    Name: 'Mute'
+    Display: '&6Mute-Befehl'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
+      - '&e/mute &7benutzen, um einen Spieler'
+      - '&7für 15 Minuten zu muten.'
+      - '&7Kosten: &e%PRICEMUTE%$'
+    Price: 2000000
+
+  NoHunger:
+    Name: 'NoHunger'
+    Display: '&6Kein Hunger'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7keinen Hunger mehr.'
+      - '&7Kosten: &e%PRICEHUNGER%$'
+    Price: 250000
