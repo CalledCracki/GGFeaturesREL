@@ -7,7 +7,7 @@ import org.bukkit.Material;
 
 A class extending the functionality of the regular Menu, but making it Paginated
 
-This pagination system was made from Jer's code sample. <3
+This pagination system was made from Jer's code sample.
 
  */
 
@@ -36,20 +36,20 @@ public abstract class PaginatedMenu extends Menu {
 
         for (int i = 0; i < 10; i++) {
             if (inventory.getItem(i) == null) {
-                inventory.setItem(i, super.FILLER_GLASS2);
+                inventory.setItem(i, super.FILLER_GLASS);
             }
         }
 
-        inventory.setItem(17, super.FILLER_GLASS2);
-        inventory.setItem(18, super.FILLER_GLASS2);
-        inventory.setItem(26, super.FILLER_GLASS2);
-        inventory.setItem(27, super.FILLER_GLASS2);
-        inventory.setItem(35, super.FILLER_GLASS2);
-        inventory.setItem(36, super.FILLER_GLASS2);
+        inventory.setItem(17, super.FILLER_GLASS);
+        inventory.setItem(18, super.FILLER_GLASS);
+        inventory.setItem(26, super.FILLER_GLASS);
+        inventory.setItem(27, super.FILLER_GLASS);
+        inventory.setItem(35, super.FILLER_GLASS);
+        inventory.setItem(36, super.FILLER_GLASS);
 
         for (int i = 44; i < 54; i++) {
             if (inventory.getItem(i) == null) {
-                inventory.setItem(i, super.FILLER_GLASS2);
+                inventory.setItem(i, super.FILLER_GLASS);
             }
         }
     }

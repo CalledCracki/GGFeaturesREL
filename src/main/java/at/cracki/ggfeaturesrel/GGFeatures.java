@@ -15,6 +15,17 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.HashMap;
 
+/**
+
+    Continuation of Niklas' GrieferGamesFeatures Plugin, made by CalledCracki.
+    Check out Niklas' YouTube Channel and Discord Server and leave some love,
+    for the original version of GG Features <3
+    <i> When downloading the source code, please leave this notice </i>
+    <i> and credit Niklas & me when using one of our code snippets :) </i>
+
+ */
+
+
 public final class GGFeatures extends JavaPlugin {
     public static String version = "§r§fv4.0";
 

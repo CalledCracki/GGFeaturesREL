@@ -78,10 +78,7 @@ public class Scoreboard {
     public static String getLine(Player player, Integer i) {
         return replace(player, sb.getString("Scoreboard.Messages.Line" + i));
     }
-    /*
 
-    d
-     */
     public static String replace(Player player, String string) {
         String OnPlayer = String.valueOf(Bukkit.getOnlinePlayers().size());
         String MaxPlayer = String.valueOf(Bukkit.getMaxPlayers());

@@ -24,7 +24,28 @@
 
 GGFeatures:
   Settings:
-
+    # The Prefix shown infront of GGFeaturesREL commands.
     Prefix: '&7[&4&lGGFeatures&6REL&7] &r'
-
+    # Shows a message to administrators on server join.
+    # 'true' to enable; 'false' to disable
     AdOnJoin: true
+
+    # Cooldown for Clearchat Command Usage in minutes.
+    ClearChatCooldown: 60
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |            GGFeaturesREL (Global Messages)           | #
+# +------------------------------------------------------+ #
+############################################################
+
+  Messages:
+    # Message displayed when player doesn't have permission
+    NoPerms: '&cDazu hast du keine Rechte!'
+
+    # Message displayed when player inventory is full
+    InventoryFull: '&cDein Inventar ist voll!'
+
+    # Message displayed in the console, when executing commands inside the console
+    DeniedConsoleCommand: '&cDie Console kann diesen Befehl nicht ausführen!'

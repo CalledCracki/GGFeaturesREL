@@ -13,10 +13,10 @@ import org.bukkit.inventory.ItemStack;
  */
 public abstract class Menu implements InventoryHolder {
 
-    //Protected values that can be accessed in the menus
+    // Protected values that can be accessed in the menus
     protected PlayerMenuUtility playerMenuUtility;
     protected Inventory inventory;
-    protected ItemStack FILLER_GLASS2 = new Item(Material.GRAY_STAINED_GLASS_PANE, 1, (byte) 7).setName(" ").toItemStack();
+    protected ItemStack FILLER_GLASS = new Item(Material.GRAY_STAINED_GLASS_PANE, 1, (byte) 7).setName(" ").toItemStack();
 
     // Constructor for Menu. Pass in a PlayerMenuUtility so that
     // we have information on who's menu this is and
@@ -61,7 +61,7 @@ public abstract class Menu implements InventoryHolder {
     public void setFillerGlass(){
         for (int i = 0; i < getSlots(); i++) {
             if (inventory.getItem(i) == null){
-                inventory.setItem(i, FILLER_GLASS2);
+                inventory.setItem(i, FILLER_GLASS);
             }
         }
     }
@@ -72,20 +72,20 @@ public abstract class Menu implements InventoryHolder {
 
         for (int i = 0; i < 10; i++) {
             if (inventory.getItem(i) == null) {
-                inventory.setItem(i, FILLER_GLASS2);
+                inventory.setItem(i, FILLER_GLASS);
             }
         }
 
-        inventory.setItem(17, FILLER_GLASS2);
-        inventory.setItem(18, FILLER_GLASS2);
-        inventory.setItem(26, FILLER_GLASS2);
-        inventory.setItem(27, FILLER_GLASS2);
-        inventory.setItem(35, FILLER_GLASS2);
-        inventory.setItem(36, FILLER_GLASS2);
+        inventory.setItem(17, FILLER_GLASS);
+        inventory.setItem(18, FILLER_GLASS);
+        inventory.setItem(26, FILLER_GLASS);
+        inventory.setItem(27, FILLER_GLASS);
+        inventory.setItem(35, FILLER_GLASS);
+        inventory.setItem(36, FILLER_GLASS);
 
         for (int i = 44; i < 54; i++) {
             if (inventory.getItem(i) == null) {
-                inventory.setItem(i, FILLER_GLASS2);
+                inventory.setItem(i, FILLER_GLASS);
             }
         }
     }

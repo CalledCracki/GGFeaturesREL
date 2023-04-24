@@ -3,7 +3,7 @@ package at.cracki.ggfeaturesrel.utils.inventoryManager;
 import org.bukkit.entity.Player;
 
 /*
-Companion class to all menus. This is needed to pass information across the entire
+ Companion class to all menus. This is needed to pass information across the entire
  menu system no matter how many inventories are opened or closed.
 
  Each player has one of these objects, and only one.
@@ -11,9 +11,7 @@ Companion class to all menus. This is needed to pass information across the enti
 
 public class PlayerMenuUtility {
 
-    private Player owner;
-    //store the player that will be killed so we can access him in the next menu
-    private Player playerToKill;
+    private final Player owner;
 
     public PlayerMenuUtility(Player p) {
         this.owner = p;
