@@ -59,16 +59,14 @@
 
 <img src="images/logo.png" alt="Logo" width="120" height="120">
 
-Originally started by Niklas409, this long-standing project includes the most important and well-known features of one of the largest German networks. After 3 years without any improvements or updates there is finally the GGFeatures version 4.0!
+Originally started by Niklas409, this long-standing project includes the most important and well-known features of one of the largest German networks. After 4 years without any improvements or updates there is finally the GGFeatures version 4.0!
 
 Some of the most important changes:
-* The new system is now available for all versions starting from the 1.8 version!
-* As a Patreon member you will get earlier access to the latest changes and more bonuses.
-* You can now also apply on our Discord server as a supporter, moderator or developer! :smile:
+* The new system will be available for all versions starting from the 1.8 version!
+* The latest features of the GrieferGames network available on all versions.
+* (More or less) regular updates of the new GGFeatures version :)
 
 _You can find more information here:_ **LINK COMING SOON**
-
-<!-- Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template! -->
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
@@ -103,12 +101,12 @@ Github Repository: https://github.com/EssentialsX/Essentials
 
 _Here you will learn briefly and concisely how to install and set up GGFeatures correctly._
 
-1. Download the plugin from the official Spigot site. [(LINK COMING SOON)]
+1. Download the plugin from the releases site.
 2. Put the downloaded .jar file into the plugins folder of your server.
 3. Reload your server with /reload.
 4. _Check if there is an error in the console._
 5. With the command /gg you can check if the installation was successful.
-6. In your plugins folder, the "GGFeatures" folder should now have been created.
+6. In your plugins folder, the "GGFeaturesREL" folder should now have been created.
 
 _In this folder there are even more new files and folders._
 _The file named "config.yml" is the center of your system 
@@ -138,12 +136,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Add Additional Screenshots and Examples
 - [ ] Create and add a Wiki Page.
 - [ ] Multi-language Support
-    - [ ] German
+    - [X] German
     - [ ] Italian
     - [ ] French
     - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/CalledCracki/GGFeaturesREL/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
