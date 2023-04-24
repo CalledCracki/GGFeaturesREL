@@ -14,14 +14,14 @@
   <p align="center">
     Over 47 re-coded Features of the GrieferGames Network!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the wiki »</strong></a>
+    <s><a href=" "><strong>Explore the wiki »</strong></a></s>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Become a Patreon</a>
+    <s><a href=" ">Become a Patreon</a></s>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bugs</a>
+    <a href="https://github.com/CalledCracki/GGFeaturesREL/issues">Report Bugs</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Join our Discord</a>
+    <a href="https://discord.gg/asHhkfA4HA">Join our Discord</a>
   </p>
 </div>
 
