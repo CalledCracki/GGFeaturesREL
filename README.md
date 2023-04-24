@@ -25,6 +25,9 @@
   </p>
 </div>
 
+<div align="center">
+<img src="images/progress.png" alt="Logo" width="500" height="300">
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
