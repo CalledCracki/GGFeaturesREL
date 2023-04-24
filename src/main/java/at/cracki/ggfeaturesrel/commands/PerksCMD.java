@@ -30,19 +30,7 @@ public class PerksCMD implements CommandExecutor {
 
         if(!(sender instanceof Player player)) return true;
             String name = player.getName();
-
-            if(player.hasPermission("gg.bypass.falldamage")) {
-                if(data.getString("Perks.FallDamage." + player.getUniqueId()) == null) {
-                    data.set("Perks.FallDamage", player.getUniqueId());
-                    try {
-                        data.save();
-                    } catch (IOException exception) {
-                        exception.printStackTrace();
-                    }
-                }
-            }
             new Perks(GGFeatures.getPlayerMenuUtility(player)).open();
-
         return false;
     }
 }

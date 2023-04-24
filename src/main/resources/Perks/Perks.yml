@@ -63,3 +63,84 @@ Perks:
       - '&7keinen Hunger mehr.'
       - '&7Kosten: &e%PRICEHUNGER%$'
     Price: 250000
+
+  Speed:
+    Name: 'Speed'
+    Display: '&6Schnelligkeit+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bist du'
+      - '&7viel schneller auf dem Server.'
+      - '&7Kosten: &e%PRICESPEED%$'
+    Price: 250000
+
+  FireRes:
+    Name: 'FireRes'
+    Display: '&6Feuerresistenz+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7keinen Feuerschaden mehr.'
+      - '&7Kosten: &e%PRICEFIRERES%$'
+    Price: 500000
+
+  Respiration:
+    Name: 'Respiration'
+    Display: '&6Unterwasseratmung+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7keinen Wasserschaden mehr.'
+      - '&7Kosten: &e%PRICERESPIRATION%$'
+    Price: 250000
+
+  Strength:
+    Name: 'Strength'
+    Display: '&6Stärke+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7einen dauerhaften Stärke-Effekt.'
+      - '&7Kosten: &e%PRICESTRENGTH%$'
+    Price: 400000
+
+  Jump:
+    Name: 'Jump'
+    Display: '&6Sprungkraft+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7einen dauerhaften Sprungkraft-Effekt.'
+      - '&7Kosten: &e%PRICEJUMP%$'
+    Price: 250000
+
+  Hotbar:
+    Name: 'KeepHotbar'
+    Display: '&6KeepHotbar'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, verlierst du'
+      - '&7beim Tod, deine Hotbar nicht mehr.'
+      - '&7Kosten: &e%PRICEHOTBAR%$'
+    Price: 1000000
+
+  KeepXP:
+    Name: 'KeepXP'
+    Display: '&6KeepXP'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, verlierst du'
+      - '&7beim Tod, keine Erfahrungspunkte mehr.'
+      - '&7Kosten: &e%PRICEXP%$'
+    Price: 500000
+
+  DoubleXP:
+    Name: 'DoubleXP'
+    Display: '&6Double XP'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, bekommst du'
+      - '&7immer die doppelten Erfahrungspunkte.'
+      - '&7Kosten: &e%PRICEDOUBLEXP%$'
+    Price: 500000
+
+  NightVision:
+    Name: 'NightVision'
+    Display: '&6Nachtsicht+'
+    Lore:
+      - '&7Wenn du dieses Perk besitzt, hast du'
+      - '&7einen dauerhaften Nachtsicht-Effekt.'
+      - '&7Kosten: &e%PRICENIGHT%$'
+    Price: 250000
