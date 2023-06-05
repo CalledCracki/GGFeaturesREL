@@ -9,6 +9,8 @@
     <img src="images/logo.png" alt="Logo" width="140" height="140">
   </a>
 
+  
+
   <h1 align="center">GGFeatures Reloaded</h1>
 
   <p align="center">
@@ -55,31 +57,32 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+### Über das Projekt
 
 <img src="images/logo.png" alt="Logo" width="120" height="120">
 
-Originally started by Niklas409, this long-standing project includes the most important and well-known features of one of the largest German networks. After 4 years without any improvements or updates there is finally the GGFeatures version 4.0!
+Ursprünglich von Niklas409 gestartet, beinhaltet dieses langjährige Projekt die wichtigsten und bekanntesten Features eines der größten deutschen Minecraft Netzwerke. Nach 4 Jahren ohne jegliche Verbesserungen oder Updates gibt es nun endlich die GGFeatures Version 4.0!
 
-Some of the most important changes:
-* The new system will be available for all versions starting from the 1.8 version!
-* The latest features of the GrieferGames network available on all versions.
-* (More or less) regular updates of the new GGFeatures version :)
+Einige der wichtigsten Änderungen:
+* Das neue System wird für alle Versionen ab der Version 1.8 verfügbar sein!
+* Die neusten GGFeatures Versionen laufen effizienter. 
+* (Mehr oder weniger) regelmäßige Updates der neuen GGFeatures Versionen :)
+* Aktiver Support bei Fehlern oder Wünschen
 
-_You can find more information here:_ **LINK COMING SOON**
+Weitere Informationen findest du hier:_ **LINK KOMMT NOCH**
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+### Erste Schritte
 
-Here you will learn the most important steps how to use the GGFeaturesREL system on your server.
+Hier erfährst du die wichtigsten Schritte, wie du das GGFeaturesREL-System auf deinem Server nutzen kannst.
 
-### Prerequisites
+## Voraussetzungen
 
-If you don't want to use your own system, it is recommended to install one of the plugins listed below.
+Wenn du kein eigenes System verwenden möchtest, empfiehlt es sich, eines der unten aufgeführten Plugins zu installieren.
 
 <h2>Permission System</h2>
 <h3>PermissionsEx</h3>
@@ -99,89 +102,77 @@ Github Repository: https://github.com/EssentialsX/Essentials
 
 ### Installation
 
-_Here you will learn briefly and concisely how to install and set up GGFeatures correctly._
+_Hier erfahren Sie kurz und bündig, wie Sie GGFeatures richtig installieren und einrichten._
 
-1. Download the plugin from the releases site.
-2. Put the downloaded .jar file into the plugins folder of your server.
-3. Reload your server with /reload.
-4. _Check if there is an error in the console._
-5. With the command /gg you can check if the installation was successful.
-6. In your plugins folder, the "GGFeaturesREL" folder should now have been created.
+1. Lade das Plugin auf in den releases herunter.
+2. Lade die heruntergeladene .jar-Datei in den Plugins-Ordner deines Servers.
+3. Lade deinen Server mit /reload neu.
+4. Prüfe, ob ein Fehler in der Konsole auftritt.
+5. Mit dem Befehl /gg kannst du überprüfen, ob die Installation erfolgreich war.
+6. In deinem Plugins-Ordner sollte nun der Ordner "GGFeaturesREL" angelegt worden sein.
 
-_In this folder there are even more new files and folders._
-_The file named "config.yml" is the center of your system 
-and manages the most important settings._
-_There you can customize everything as it is most convenient for you._
-
-<p align="right">(<a href="#top">Back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+_In diesem Ordner befinden sich noch weitere neue Dateien und Ordner._
+_Die Datei mit dem Namen "config.yml" ist das Zentrum des GGFeatures Systems 
+und verwaltet die wichtigsten Einstellungen._
+_Dort kannst du alles so anpassen, wie es für dich am bequemsten ist._
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+### TO-DO Liste
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Screenshots and Examples
-- [ ] Create and add a Wiki Page.
-- [ ] Multi-language Support
-    - [X] German
-    - [ ] Italian
-    - [ ] French
-    - [ ] Spanish
+- [x] Changelogs hinzufügen
+- [x] Zurück-zum-Start-Links hinzufügen
+- [ ] Zusätzliche Screenshots und Beispiele hinzufügen
+- [ ] Eine Wiki-Seite erstellen und hinzufügen.
 
-See the [open issues](https://github.com/CalledCracki/GGFeaturesREL/issues) for a full list of proposed features (and known issues).
+Eine vollständige Liste der vorgeschlagenen Funktionen (und bekannten Probleme) findest du unter [open issues](https://github.com/CalledCracki/GGFeaturesREL/issues).
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+### Mitwirken
 
+Wir legen sehr viel Wert auf Zusammenarbeit.
+Wenn du das Gefühl haben solltest, dass du dieses Projekt unterstützen möchtest,
+clone dieses Repo und erstelle dann einen Pull Request.
 
-We place a lot of emphasis on collaboration and community.
+'$ git clone https://github.com/CalledCracki/GGFeaturesREL.git'
 
-Even though we are very happy about support, it is still pending whether we want to provide this opportunity in the future.
-
-Should it come to this, this will be announced in our Discord server!
+Wir werden uns den Pull Request ansehen und ihn dann ggf. bestätigen.
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 
 <!-- LICENSE -->
-## License
+### Lizenz
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Veröffentlicht unter der MIT-Lizenz. Siehe `LICENSE.txt` für weitere Informationen.
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
 
 
 <!-- CONTACT -->
-## Contact
+### Kontakt
 
-Twitter Page - [@your_twitter](https://twitter.com/your_username)
-
+# Discord Server
 Discord Server - [@your_discord](https://twitter.com/your_username)
 
-Patreon Page - [your_patreon](https://twitter.com/your_username)
+# Patreon
+![Patreon](https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+# Projekt Link
+![Repo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
+
+![love](http://ForTheBadge.com/images/badges/built-with-love.svg)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [product-screenshot]: images/screenshot.png
