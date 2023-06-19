@@ -86,6 +86,8 @@ Wenn du kein eigenes System verwenden möchtest, empfiehlt es sich, eines der un
 
 <h2>Permission System</h2>
 <h3>PermissionsEx</h3>
+Spigot Resource: https://www.spigotmc.org/resources/permissionsex.108323/
+
 GitHub Repository: https://github.com/PEXPlugins/PermissionsEx
 
 <h3>LuckPerms</h3>
