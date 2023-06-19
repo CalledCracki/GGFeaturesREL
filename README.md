@@ -141,7 +141,7 @@ Wir legen sehr viel Wert auf Zusammenarbeit.
 Wenn du das Gefühl haben solltest, dass du dieses Projekt unterstützen möchtest,
 clone dieses Repo und erstelle dann einen Pull Request.
 
-'$ git clone https://github.com/CalledCracki/GGFeaturesREL.git'
+`$ git clone https://github.com/CalledCracki/GGFeaturesREL.git`
 
 Wir werden uns den Pull Request ansehen und ihn dann ggf. bestätigen.
 
