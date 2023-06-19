@@ -69,7 +69,7 @@ Einige der wichtigsten Änderungen:
 * (Mehr oder weniger) regelmäßige Updates der neuen GGFeatures Versionen :)
 * Aktiver Support bei Fehlern oder Wünschen
 
-Weitere Informationen findest du hier:_ **LINK KOMMT NOCH**
+_Weitere Informationen findest du hier:_ **LINK KOMMT NOCH**
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
