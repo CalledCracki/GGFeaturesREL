@@ -16,14 +16,14 @@
   <p align="center">
     Over 47 re-coded Features of the GrieferGames Network!
     <br />
-    <s><a href=" "><strong>Explore the wiki »</strong></a></s>
+    <s><a href=" "><strong>Erkunde unser Wiki »</strong></a></s>
     <br />
     <br />
-    <s><a href=" ">Become a Patreon</a></s>
+    <s><a href=" ">Patreon werden</a></s>
     ·
-    <a href="https://github.com/CalledCracki/GGFeaturesREL/issues">Report Bugs</a>
+    <a href="https://github.com/CalledCracki/GGFeaturesREL/issues">Bugs melden</a>
     ·
-    <a href="https://discord.gg/asHhkfA4HA">Join our Discord</a>
+    <a href="https://discord.gg/asHhkfA4HA">Unser Discord Server</a>
   </p>
 </div>
 
@@ -37,12 +37,12 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">Über das Projekt</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">Erste Schritte</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites">Voraussetzungen</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
