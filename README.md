@@ -37,20 +37,18 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Über das Projekt</a>
+      <a href="#über-das-projekt">Über das Projekt</a>
     </li>
     <li>
-      <a href="#getting-started">Erste Schritte</a>
+      <a href="#erste-schritte">Erste Schritte</a>
       <ul>
-        <li><a href="#prerequisites">Voraussetzungen</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#to-do-liste">TO-DO Liste</a></li>
+    <li><a href="#mitwirken">Mitwirken</a></li>
+    <li><a href="#lizenz">Lizenz</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
   </ol>
 </details>
 
@@ -163,13 +161,13 @@ Veröffentlicht unter der MIT-Lizenz. Siehe `LICENSE.txt` für weitere Informati
 <!-- CONTACT -->
 ### Kontakt
 
-# Discord Server
+## Discord Server
 Discord Server - [Nikunity](https://discord.gg/asHhkfA4HA)
 
-# Patreon
+## Patreon
 ![Patreon](https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white)
 
-# Projekt Link
+## Projekt Link
 <a href="https://github.com/CalledCracki/GGFeaturesREL">
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
