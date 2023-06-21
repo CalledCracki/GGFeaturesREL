@@ -164,7 +164,7 @@ Veröffentlicht unter der MIT-Lizenz. Siehe `LICENSE.txt` für weitere Informati
 ### Kontakt
 
 # Discord Server
-Discord Server - [@your_discord](https://twitter.com/your_username)
+Discord Server - [Nikunity](https://discord.gg/asHhkfA4HA)
 
 # Patreon
 ![Patreon](https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white)
