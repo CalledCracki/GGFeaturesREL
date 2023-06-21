@@ -170,7 +170,9 @@ Discord Server - [Nikunity](https://discord.gg/asHhkfA4HA)
 ![Patreon](https://img.shields.io/badge/Patreon-black?style=for-the-badge&logo=patreon&logoColor=white)
 
 # Projekt Link
-![Repo](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+<a href="https://github.com/CalledCracki/GGFeaturesREL">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+</a>
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
 
