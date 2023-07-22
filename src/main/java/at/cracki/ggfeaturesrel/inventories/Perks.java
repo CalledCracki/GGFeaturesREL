@@ -60,209 +60,57 @@ public class Perks extends Menu {
         YamlDocument perks = FileManager.getPerkConfig();
         DecimalFormatSymbols symbols = DecimalFormatSymbols.getInstance();
         symbols.setGroupingSeparator('.');
-        DecimalFormat formatter = new DecimalFormat("###,###.##", symbols);
+        DecimalFormat formatter = new DecimalFormat("###,###.##", symbols);        Material material;
+        ItemStack item;
 
-        List<String> falldmglore = perks.getStringList("Perks.FallDamage.Lore");
-        falldmglore.replaceAll(line -> line.replaceAll("&", "§"));
-        falldmglore.replaceAll(line -> line.replaceAll("%PRICEFALLDMG%", formatter.format(perks.getInt("Perks.FallDamage.Price"))));
+        String[] mainItemKeys = {
+                "FallDamage", "ClearChat", "StartKick", "SlowChat", "Mute",
+                "NoHunger", "Speed", "FireRes", "Respiration", "Strength",
+                "Jump", "Hotbar", "KeepXP", "DoubleXP", "NightVision"
+        };
 
-        ItemStack falldmg = new Item(Material.DIAMOND_BOOTS)
-                .setName(perks.getString("Perks.FallDamage.Display").replaceAll("&", "§"))
-                .setLore(falldmglore)
-                .toItemStack();
+        int[] mainItemSlots = {
+                1, 2, 3, 5, 6, 7, 20, 21, 22, 23, 24, 38, 39, 41, 42
+        };
 
-
-        List<String> clearchatlore = perks.getStringList("Perks.ClearChat.Lore");
-        clearchatlore.replaceAll(line -> line.replaceAll("&", "§"));
-        clearchatlore.replaceAll(line -> line.replaceAll("%PRICECLEAR%", formatter.format(perks.getInt("Perks.ClearChat.Price"))));
-
-        ItemStack clearchat = new Item(Material.PAPER)
-                .setName(perks.getString("Perks.ClearChat.Display").replaceAll("&", "§"))
-                .setLore(clearchatlore)
-                .toItemStack();
-
-
-        List<String> kicklore = perks.getStringList("Perks.StartKick.Lore");
-        kicklore.replaceAll(line -> line.replaceAll("&", "§"));
-        kicklore.replaceAll(line -> line.replaceAll("%PRICEKICK%", formatter.format(perks.getInt("Perks.StartKick.Price"))));
-
-        ItemStack startkick = new Item(Material.OAK_SIGN)
-                .setName(perks.getString("Perks.StartKick.Display").replaceAll("&", "§"))
-                .setLore(kicklore)
-                .toItemStack();
-
-
-        List<String> slowlore = perks.getStringList("Perks.SlowChat.Lore");
-        slowlore.replaceAll(line -> line.replaceAll("&", "§"));
-        slowlore.replaceAll(line -> line.replaceAll("%PRICESLOW%", formatter.format(perks.getInt("Perks.SlowChat.Price"))));
-
-        ItemStack slowchat = new Item(Material.SOUL_SAND)
-                .setName(perks.getString("Perks.SlowChat.Display").replaceAll("&", "§"))
-                .setLore(slowlore)
-                .toItemStack();
-
-
-        List<String> mutelore = perks.getStringList("Perks.Mute.Lore");
-        mutelore.replaceAll(line -> line.replaceAll("&", "§"));
-        mutelore.replaceAll(line -> line.replaceAll("%PRICEMUTE%", formatter.format(perks.getInt("Perks.Mute.Price"))));
-
-        ItemStack mute = new Item(Material.BARRIER)
-                .setName(perks.getString("Perks.Mute.Display").replaceAll("&", "§"))
-                .setLore(mutelore)
-                .toItemStack();
-
-
-        List<String> nohungerlore = perks.getStringList("Perks.NoHunger.Lore");
-        nohungerlore.replaceAll(line -> line.replaceAll("&", "§"));
-        nohungerlore.replaceAll(line -> line.replaceAll("%PRICEHUNGER%", formatter.format(perks.getInt("Perks.NoHunger.Price"))));
-
-        ItemStack nohunger = new Item(Material.COOKED_BEEF)
-                .setName(perks.getString("Perks.NoHunger.Display").replaceAll("&", "§"))
-                .setLore(nohungerlore)
-                .toItemStack();
-
-
-        List<String> speedlore = perks.getStringList("Perks.Speed.Lore");
-        speedlore.replaceAll(line -> line.replaceAll("&", "§"));
-        speedlore.replaceAll(line -> line.replaceAll("%PRICESPEED%", formatter.format(perks.getInt("Perks.Speed.Price"))));
-
-        ItemStack speed = new ItemStack(Material.POTION);
-        PotionMeta speedmeta = (PotionMeta) speed.getItemMeta();
-        speedmeta.addCustomEffect(new PotionEffect(PotionEffectType.SPEED, 3600, 1), true);
-        speedmeta.setDisplayName(perks.getString("Perks.Speed.Display").replaceAll("&", "§"));
-        speedmeta.setLore(speedlore);
-        speed.setItemMeta(speedmeta);
-
-
-        List<String> firelore = perks.getStringList("Perks.FireRes.Lore");
-        firelore.replaceAll(line -> line.replaceAll("&", "§"));
-        firelore.replaceAll(line -> line.replaceAll("%PRICEFIRERES%", formatter.format(perks.getInt("Perks.FireRes.Price"))));
-
-        ItemStack fire = new ItemStack(Material.POTION);
-        PotionMeta firemeta = (PotionMeta) fire.getItemMeta();
-        firemeta.addCustomEffect(new PotionEffect(PotionEffectType.FIRE_RESISTANCE, 3600, 1), true);
-        firemeta.setDisplayName(perks.getString("Perks.FireRes.Display").replaceAll("&", "§"));
-        firemeta.setLore(firelore);
-        fire.setItemMeta(firemeta);
-
-
-        List<String> respirationlore = perks.getStringList("Perks.Respiration.Lore");
-        respirationlore.replaceAll(line -> line.replaceAll("&", "§"));
-        respirationlore.replaceAll(line -> line.replaceAll("%PRICERESPIRATION%", formatter.format(perks.getInt("Perks.Respiration.Price"))));
-
-        ItemStack respiration = new ItemStack(Material.POTION);
-        PotionMeta resipirationmeta = (PotionMeta) respiration.getItemMeta();
-        resipirationmeta.addCustomEffect(new PotionEffect(PotionEffectType.WATER_BREATHING, 3600, 1), true);
-        resipirationmeta.setDisplayName(perks.getString("Perks.Respiration.Display").replaceAll("&", "§"));
-        resipirationmeta.setLore(respirationlore);
-        respiration.setItemMeta(resipirationmeta);
-
-
-        List<String> strengthlore = perks.getStringList("Perks.Strength.Lore");
-        strengthlore.replaceAll(line -> line.replaceAll("&", "§"));
-        strengthlore.replaceAll(line -> line.replaceAll("%PRICESTRENGTH%", formatter.format(perks.getInt("Perks.Strength.Price"))));
-
-        ItemStack strength = new ItemStack(Material.POTION);
-        PotionMeta strengthMeta = (PotionMeta) strength.getItemMeta();
-        strengthMeta.addCustomEffect(new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 3600, 1), true);
-        strengthMeta.setDisplayName(perks.getString("Perks.Strength.Display").replaceAll("&", "§"));
-        strengthMeta.setLore(strengthlore);
-        strength.setItemMeta(strengthMeta);
-
-
-        List<String> jumplore = perks.getStringList("Perks.Jump.Lore");
-        jumplore.replaceAll(line -> line.replaceAll("&", "§"));
-        jumplore.replaceAll(line -> line.replaceAll("%PRICEJUMP%", formatter.format(perks.getInt("Perks.Jump.Price"))));
-
-        ItemStack jump = new ItemStack(Material.POTION);
-        PotionMeta jumpMeta = (PotionMeta) jump.getItemMeta();
-        jumpMeta.addCustomEffect(new PotionEffect(PotionEffectType.JUMP, 3600, 1), true);
-        jumpMeta.setDisplayName(perks.getString("Perks.Jump.Display").replaceAll("&", "§"));
-        jumpMeta.setLore(jumplore);
-        jump.setItemMeta(jumpMeta);
-
-
-        List<String> hotbarlore = perks.getStringList("Perks.Hotbar.Lore");
-        hotbarlore.replaceAll(line -> line.replaceAll("&", "§"));
-        hotbarlore.replaceAll(line -> line.replaceAll("%PRICEHOTBAR%", formatter.format(perks.getInt("Perks.Hotbar.Price"))));
-
-        ItemStack hotbar = new Item(Material.CHEST)
-                .setName(perks.getString("Perks.Hotbar.Display").replaceAll("&", "§"))
-                .setLore(hotbarlore)
-                .toItemStack();
-
-
-        List<String> keepxplore = perks.getStringList("Perks.KeepXP.Lore");
-        keepxplore.replaceAll(line -> line.replaceAll("&", "§"));
-        keepxplore.replaceAll(line -> line.replaceAll("%PRICEXP%", formatter.format(perks.getInt("Perks.KeepXP.Price"))));
-
-        ItemStack keepxp = new Item(Material.EXPERIENCE_BOTTLE)
-                .setName(perks.getString("Perks.KeepXP.Display").replaceAll("&", "§"))
-                .setLore(keepxplore)
-                .toItemStack();
-
-
-        List<String> doublexplore = perks.getStringList("Perks.DoubleXP.Lore");
-        doublexplore.replaceAll(line -> line.replaceAll("&", "§"));
-        doublexplore.replaceAll(line -> line.replaceAll("%PRICEDOUBLEXP%", formatter.format(perks.getInt("Perks.DoubleXP.Price"))));
-
-        ItemStack doublexp = new Item(Material.EXPERIENCE_BOTTLE)
-                .setName(perks.getString("Perks.DoubleXP.Display").replaceAll("&", "§"))
-                .setLore(doublexplore)
-                .toItemStack();
-
-
-        List<String> nightvisionlore = perks.getStringList("Perks.NightVision.Lore");
-        nightvisionlore.replaceAll(line -> line.replaceAll("&", "§"));
-        nightvisionlore.replaceAll(line -> line.replaceAll("%PRICENIGHT%", formatter.format(perks.getInt("Perks.NightVision.Price"))));
-
-        ItemStack nightvision = new Item(Material.GLOWSTONE_DUST)
-                .setName(perks.getString("Perks.NightVision.Display").replaceAll("&", "§"))
-                .setLore(nightvisionlore)
-                .toItemStack();
-
-        ItemStack notpurchased = new Item(Material.YELLOW_STAINED_GLASS_PANE)
+        ItemStack[] mainItems = new ItemStack[mainItemKeys.length];
+        ItemStack notPurchasedItem = new Item(Material.YELLOW_STAINED_GLASS_PANE)
                 .setName("§6Nicht verfügbar")
                 .setLore(Arrays.asList("§7Kaufe dieses Perk, um Einstellungen vornehmen zu können."))
                 .toItemStack();
 
-        inventory.setItem(1, falldmg);
-        inventory.setItem(2, clearchat);
-        inventory.setItem(3, startkick);
+        // Set the main items
+        for (int i = 0; i < mainItemKeys.length; i++) {
+            String key = mainItemKeys[i];
+            List<String> lore = perks.getStringList("Perks." + key + ".Lore");
+            lore.replaceAll(line -> line.replace("&", "§"));
+            lore.replaceAll(line -> line.replace("%PRICE" + key.toUpperCase() + "%", formatter.format(perks.getInt("Perks." + key + ".Price"))));
 
-        inventory.setItem(5, slowchat);
-        inventory.setItem(6, mute);
-        inventory.setItem(7, nohunger);
+            material = Material.valueOf(perks.getString("Perks." + key + ".Material"));
+            item = new Item(material)
+                .setName(perks.getString("Perks." + key + ".Display").replace("&", "§"))
+                .setLore(lore)
+                .toItemStack();
 
-        inventory.setItem(20, speed);
-        inventory.setItem(21, fire);
-        inventory.setItem(22, respiration);
-        inventory.setItem(23, strength);
-        inventory.setItem(24, jump);
+            if (material == Material.POTION) {
+                PotionEffectType potionType = PotionEffectType.getByName(perks.getString("Perks." + key + ".PotionType"));
+                if (potionType != null) {
+                    PotionMeta potionMeta = (PotionMeta) item.getItemMeta();
+                    potionMeta.addCustomEffect(new PotionEffect(potionType, 3600, 1), true);
+                    item.setItemMeta(potionMeta);
+                }
+            }
 
-        inventory.setItem(38, hotbar);
-        inventory.setItem(39, keepxp);
-        inventory.setItem(41, doublexp);
-        inventory.setItem(42, nightvision);
+            int slot = mainItemSlots[i];
+            inventory.setItem(slot, item);
+            inventory.setItem(slot + 9, notPurchasedItem);
+        }
 
-        inventory.setItem(10, notpurchased);
-        inventory.setItem(11, notpurchased);
-        inventory.setItem(12, notpurchased);
+        int[] placeholderSlots = { 10, 11, 12, 14, 15, 16, 29, 30, 31, 32, 33, 47, 48, 50, 51 };
+        for (int slot : placeholderSlots) {
+            inventory.setItem(slot, notPurchasedItem);
+        }
 
-        inventory.setItem(14, notpurchased);
-        inventory.setItem(15, notpurchased);
-        inventory.setItem(16, notpurchased);
-
-        inventory.setItem(29, notpurchased);
-        inventory.setItem(30, notpurchased);
-        inventory.setItem(31, notpurchased);
-        inventory.setItem(32, notpurchased);
-        inventory.setItem(33, notpurchased);
-
-        inventory.setItem(47, notpurchased);
-        inventory.setItem(48, notpurchased);
-        inventory.setItem(50, notpurchased);
-        inventory.setItem(51, notpurchased);
         setFillerGlass();
     }
 }

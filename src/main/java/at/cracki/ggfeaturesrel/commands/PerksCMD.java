@@ -26,11 +26,9 @@ public class PerksCMD implements CommandExecutor {
 
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
-        String prefix = instance.getConfig().getString("GGFeatures.Settings.Prefix").replaceAll("&", "§");
-
-        if(!(sender instanceof Player player)) return true;
-            String name = player.getName();
+        if(sender instanceof Player player) {
             new Perks(GGFeatures.getPlayerMenuUtility(player)).open();
+        }
         return false;
     }
 }

@@ -14,8 +14,9 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, bekommst du'
       - '&7keinen Fallschaden mehr.'
-      - '&7Kosten &e%PRICEFALLDMG%$'
+      - '&7Kosten &e%PRICEFALLDAMAGE%$'
     Price: 500000
+    Material: DIAMOND_BOOTS
 
   ClearChat:
     Name: 'ClearChat'
@@ -23,8 +24,9 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
       - '&e/clearchat &7benutzen, um den Chat zu leeren.'
-      - '&7Kosten: &e%PRICECLEAR%$'
+      - '&7Kosten: &e%PRICECLEARCHAT%$'
     Price: 400000
+    Material: PAPER
 
   StartKick:
     Name: 'StartKick'
@@ -33,8 +35,9 @@ Perks:
       - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
       - '&e/startkick &7benutzen, um eine Abstimmung'
       - '&7für einen Rauswurf zu starten.'
-      - '&7Kosten: &e%PRICEKICK%$'
+      - '&7Kosten: &e%PRICESTARTKICK%$'
     Price: 500000
+    Material: OAK_SIGN
 
   SlowChat:
     Name: 'SlowChat'
@@ -42,8 +45,9 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, kannst du den Befehl'
       - '&e/slowchat &7benutzen, um den Chat zu verlangsamen.'
-      - '&7Kosten: &e%PRICESLOW%$'
+      - '&7Kosten: &e%PRICESLOWCHAT%$'
     Price: 500000
+    Material: SOUL_SAND
 
   Mute:
     Name: 'Mute'
@@ -54,6 +58,7 @@ Perks:
       - '&7für 15 Minuten zu muten.'
       - '&7Kosten: &e%PRICEMUTE%$'
     Price: 2000000
+    Material: BARRIER
 
   NoHunger:
     Name: 'NoHunger'
@@ -61,8 +66,9 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, bekommst du'
       - '&7keinen Hunger mehr.'
-      - '&7Kosten: &e%PRICEHUNGER%$'
+      - '&7Kosten: &e%PRICENOHUNGER%$'
     Price: 250000
+    Material: COOKED_BEEF
 
   Speed:
     Name: 'Speed'
@@ -72,6 +78,8 @@ Perks:
       - '&7viel schneller auf dem Server.'
       - '&7Kosten: &e%PRICESPEED%$'
     Price: 250000
+    Material: POTION
+    PotionType: SPEED
 
   FireRes:
     Name: 'FireRes'
@@ -81,6 +89,8 @@ Perks:
       - '&7keinen Feuerschaden mehr.'
       - '&7Kosten: &e%PRICEFIRERES%$'
     Price: 500000
+    Material: POTION
+    PotionType: FIRE_RESISTANCE
 
   Respiration:
     Name: 'Respiration'
@@ -90,6 +100,8 @@ Perks:
       - '&7keinen Wasserschaden mehr.'
       - '&7Kosten: &e%PRICERESPIRATION%$'
     Price: 250000
+    Material: POTION
+    PotionType: WATER_BREATHING
 
   Strength:
     Name: 'Strength'
@@ -99,6 +111,8 @@ Perks:
       - '&7einen dauerhaften Stärke-Effekt.'
       - '&7Kosten: &e%PRICESTRENGTH%$'
     Price: 400000
+    Material: POTION
+    PotionType: INCREASE_DAMAGE
 
   Jump:
     Name: 'Jump'
@@ -108,6 +122,8 @@ Perks:
       - '&7einen dauerhaften Sprungkraft-Effekt.'
       - '&7Kosten: &e%PRICEJUMP%$'
     Price: 250000
+    Material: POTION
+    PotionType: JUMP
 
   Hotbar:
     Name: 'KeepHotbar'
@@ -117,6 +133,7 @@ Perks:
       - '&7beim Tod, deine Hotbar nicht mehr.'
       - '&7Kosten: &e%PRICEHOTBAR%$'
     Price: 1000000
+    Material: CHEST
 
   KeepXP:
     Name: 'KeepXP'
@@ -124,8 +141,9 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, verlierst du'
       - '&7beim Tod, keine Erfahrungspunkte mehr.'
-      - '&7Kosten: &e%PRICEXP%$'
+      - '&7Kosten: &e%PRICEKEEPXP%$'
     Price: 500000
+    Material: EXPERIENCE_BOTTLE
 
   DoubleXP:
     Name: 'DoubleXP'
@@ -135,6 +153,7 @@ Perks:
       - '&7immer die doppelten Erfahrungspunkte.'
       - '&7Kosten: &e%PRICEDOUBLEXP%$'
     Price: 500000
+    Material: EXPERIENCE_BOTTLE
 
   NightVision:
     Name: 'NightVision'
@@ -142,5 +161,6 @@ Perks:
     Lore:
       - '&7Wenn du dieses Perk besitzt, hast du'
       - '&7einen dauerhaften Nachtsicht-Effekt.'
-      - '&7Kosten: &e%PRICENIGHT%$'
+      - '&7Kosten: &e%PRICENIGHTVISION%$'
     Price: 250000
+    Material: GLOWSTONE_DUST
