@@ -3,6 +3,7 @@ package at.cracki.ggfeaturesrel;
 import at.cracki.ggfeaturesrel.commands.ClearchatCMD;
 import at.cracki.ggfeaturesrel.commands.KopfCMD;
 import at.cracki.ggfeaturesrel.commands.PerksCMD;
+import at.cracki.ggfeaturesrel.commands.RenameCMD;
 import at.cracki.ggfeaturesrel.files.FileManager;
 import at.cracki.ggfeaturesrel.listener.MainListener;
 import at.cracki.ggfeaturesrel.listener.MenuListener;
@@ -62,6 +63,7 @@ public final class GGFeatures extends JavaPlugin {
         new PerksCMD(this);
         new ClearchatCMD(this);
         new KopfCMD(this);
+        new RenameCMD(this);
 
         Bukkit.getPluginManager().registerEvents(new MenuListener(), this);
         new MainListener(this);
