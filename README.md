@@ -104,7 +104,7 @@ Github Repository: https://github.com/EssentialsX/Essentials
 
 _Hier erfahren Sie kurz und bündig, wie Sie GGFeatures richtig installieren und einrichten._
 
-1. Lade das Plugin auf in den releases herunter.
+1. Lade das Plugin in den [releases](https://github.com/CalledCracki/GGFeaturesREL/releases) herunter.
 2. Lade die heruntergeladene .jar-Datei in den Plugins-Ordner deines Servers.
 3. Lade deinen Server mit /reload neu.
 4. Prüfe, ob ein Fehler in der Konsole auftritt.
