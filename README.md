@@ -14,7 +14,7 @@
   <h1 align="center">GGFeatures Reloaded</h1>
 
   <p align="center">
-    Over 47 re-coded Features of the GrieferGames Network!
+   Über 47 der wichtigsten Funktionen des GrieferGames Netzwerkes!
     <br />
     <s><a href=" "><strong>Erkunde unser Wiki »</strong></a></s>
     <br />
